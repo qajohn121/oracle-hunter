@@ -907,7 +907,7 @@ async def api_captured():
 async def main():
     asyncio.create_task(run_all())
     config = uvicorn.Config(
-        app, host="0.0.0.0", port=3006,
+        app, host="0.0.0.0", port=3001,
         log_level="warning",
         access_log=False
     )
